@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+   background-color: #11142b;
+/*   font-family: ‘Raleway’,’Source Sans Pro’, ‘Arial’;
+*/
+        
+}
+label {
+   display:block;
+   margin-bottom:10px;
+}
+input {
+   padding:10px;
+   width: 50%;
+   margin-bottom: 1em;
+}
+button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+    background-color: rgb(248,248,255);
+}
+h1 {
+    color: rgb(248,248,255);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text {
+    color: rgb(248,248,255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+   width: 50%;
+   margin: 0 auto;
+}
+
+.customDonationBox {
+   max-width: 60px;
+}
+
+main {
+   padding-top: 20%;
+}
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+
+#instructor {
+   padding:1em;
+   color: rgb(248,248,255);
+   margin: 1em 0;
+}
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
